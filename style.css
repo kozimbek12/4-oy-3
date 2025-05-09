@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'inter';
+}
+.container{
+    max-width: 1400px;
+    margin: o auto;
+}
+.nav_br{
+    border-bottom: 1px solid #E5E5E5;
+}
+nav{
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+.nav__left{
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+.nav__right{
+    gap: 8px;
+    display: flex;
+    align-items: center;
+}
+.nav__link{
+    font-weight: 400px;
+    font-size: 15.13px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    vertical-align:middle;
+    color: #000;
+}
+.geo{
+    border-color: #fc004a;
+    border-radius: 12px;
+    display: flex;
+    gap: 12px;
+    color: white;
+    padding: 6px 41px;
+    align-items: center; 
+}
+.menu{
+    display: none;
+}
+.burger{
+    width: 100%;
+}
+.red{
+    color: red;
+}
+.end{
+    background-color: red;
+}
+
+.set{
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+.card{
+    width: 340px;
+    height: 340px;
+    border-radius: 25px;
+}
+.ohiri{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+@media(max-width:992px;){
+    .logo{
+        display: none;
+    }
+}
+
+@media(max-width:768px;){
+    .geo{
+        padding: 5px 20px;
+    }
+}
+
+@media(max-width:600px;){
+    .menu{
+        display: flex;
+    }
+
+    .nav__right{
+        display: none;
+    }
+
+    .geo{
+        padding: 6px 40px;
+    }
+}
